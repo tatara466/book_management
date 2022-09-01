@@ -94,11 +94,12 @@ h1, h2{
 	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
 }
 
+/*
 img{
 	width: 100%;
 	height: auto;
 }
-
+*/
 section{clear:both;}
 
 section h2{
@@ -144,17 +145,7 @@ section h2{
 
 .txt h2{
 	padding: 0 0 20px !important;
-    
-#sec02{
-  position: relative;
 }
-#sec02 img {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-}
-}
-
 
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
