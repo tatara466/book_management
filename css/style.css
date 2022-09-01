@@ -68,6 +68,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	font-family: 'Pacifico', cursive;
 	margin-bottom: 20px;
 	font-weight:bold;
+    -webkit-text-stroke: 1px #FFF;
+    text-stroke: 1px #FFF;
 }
 
 #slogan h2{
