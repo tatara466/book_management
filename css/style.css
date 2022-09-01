@@ -147,6 +147,14 @@ section h2{
 	padding: 0 0 20px !important;
 }
 
+.book {
+     
+}
+.bookshelf {
+    width: 60%;
+    height: 60%;   
+}
+
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
 .col3 li{
