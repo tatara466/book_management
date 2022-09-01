@@ -148,7 +148,7 @@ section h2{
 #sec02{
   position: relative;
 }
-#sec02.bg {
+#sec02 img {
   position: absolute;
   top: 25px;
   left: 25px;
