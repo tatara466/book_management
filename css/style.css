@@ -94,12 +94,12 @@ h1, h2{
 	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
 }
 
-/*
+
 img{
 	width: 100%;
 	height: auto;
 }
-*/
+
 section{clear:both;}
 
 section h2{
@@ -151,7 +151,7 @@ section h2{
 }
 .books {
     position: absolute;
-    top: 1000px;
+    top: 950px;
     left: 1000px;
 }
 .bookshelf {
