@@ -149,13 +149,14 @@ section h2{
 
 .book {
     position: absolute;
-    top: 25px;
-    left: 25px;
+    top: 810px;
+    left: 875px;
+    height: 25%;  
 }
 .bookshelf {
     position: relative;
-    width: 60%;
-    height: 60%;   
+    width: 70%;
+    height: 100%;   
 }
 
 /* SEC03 SERVICE MESSAGE STORY
