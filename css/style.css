@@ -147,12 +147,79 @@ section h2{
 	padding: 0 0 20px !important;
 }
 
-.book {
+.book1 {
     position: absolute;
     top: 810px;
     left: 875px;
     height: 25%;  
 }
+.book2 {
+    position: absolute;
+    top: 810px;
+    left: 865px;
+    height: 25%;  
+}
+.book3 {
+    position: absolute;
+    top: 810px;
+    left: 855px;
+    height: 25%;  
+}
+.book4 {
+    position: absolute;
+    top: 810px;
+    left: 845px;
+    height: 25%;  
+}
+.book5 {
+    position: absolute;
+    top: 810px;
+    left: 835px;
+    height: 25%;  
+}
+.book6 {
+    position: absolute;
+    top: 825px;
+    left: 825px;
+    height: 25%;  
+}
+.book7 {
+    position: absolute;
+    top: 810px;
+    left: 815px;
+    height: 25%;  
+}
+.book8 {
+    position: absolute;
+    top: 810px;
+    left: 875px;
+    height: 25%;  
+}
+.book9 {
+    position: absolute;
+    top: 810px;
+    left: 875px;
+    height: 25%;  
+}
+.book10 {
+    position: absolute;
+    top: 810px;
+    left: 875px;
+    height: 25%;  
+}
+.book11 {
+    position: absolute;
+    top: 810px;
+    left: 875px;
+    height: 25%;  
+}
+.book12 {
+    position: absolute;
+    top: 810px;
+    left: 875px;
+    height: 25%;  
+}
+
 .bookshelf {
     position: relative;
     width: 70%;
