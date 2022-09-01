@@ -64,10 +64,10 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #slogan h1{
-	font-size: 40px;
+	font-size: 60px;
 	font-family: 'Pacifico', cursive;
 	margin-bottom: 20px;
-	font-weight:normal;
+	font-weight:bold;
 }
 
 #slogan h2{
