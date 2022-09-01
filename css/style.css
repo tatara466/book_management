@@ -144,6 +144,15 @@ section h2{
 
 .txt h2{
 	padding: 0 0 20px !important;
+    
+#sec02{
+  position: relative;
+}
+#sec02.bg {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
 }
 
 
