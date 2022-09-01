@@ -147,11 +147,17 @@ section h2{
 	padding: 0 0 20px !important;
 }
 .book {
-
+    height: 350px;
 }
 .books {
     position: absolute;
     top: 815px;
+    left: 10px;
+    display: flex;
+}
+.books1 {
+    position: absolute;
+    top: 915px;
     left: 10px;
     display: flex;
 }
