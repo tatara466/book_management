@@ -148,9 +148,12 @@ section h2{
 }
 
 .book {
-     
+    position: absolute;
+    top: 25px;
+    left: 25px;
 }
 .bookshelf {
+    position: relative;
     width: 60%;
     height: 60%;   
 }
