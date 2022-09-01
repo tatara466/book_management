@@ -149,7 +149,11 @@ section h2{
 .book {
     height: 45%;  
 }
-
+.books {
+    position: absolute;
+    top: 1000px;
+    left: 1000px;
+}
 .bookshelf {
     position: relative;
     width: 70%;
