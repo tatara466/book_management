@@ -154,6 +154,7 @@ section h2{
     position: absolute;
     top: 815px;
     left: 10px;
+    display: flex;
 }
 .bookshelf {
     position: relative;
