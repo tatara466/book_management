@@ -47,7 +47,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 #header img{
     position:absolute;
     left:50%;
-    width:1280px;
+    width:700px;
     height:568px;
     margin-left:-640px;
 }
