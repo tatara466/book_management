@@ -176,8 +176,10 @@ section h2{
     width: 70%;
     height: 100%;   
 }
-#yu {
+#hed {
     float: right;
+}
+#heds {
     text-align: center;
 }
 
