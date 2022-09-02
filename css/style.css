@@ -176,9 +176,9 @@ section h2{
     width: 70%;
     height: 100%;   
 }
-#hed, #recos{
+#hed{
     float: right;
-    padding: 0px 215px 0px 0px;
+    padding: 0px 70px 0px 0px;
 }
 #hed h2 {
     padding: 10px;
@@ -190,8 +190,8 @@ section h2{
     
 }
 .button, .result{
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 300px;
   padding: 20px 0;
   box-sizing: border-box;
   text-align: center;
@@ -201,7 +201,7 @@ section h2{
   margin-bottom: 10px;
 }
 
-.button:hover + .result{
+.book:hover + .result{
   background: #E72458;
 }
 
