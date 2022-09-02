@@ -178,6 +178,10 @@ section h2{
 }
 #hed {
     float: right;
+    padding: 0px 215px 0px 0px;
+}
+#hed h2 {
+    padding: 10px;
 }
 #heds {
     text-align: center;
