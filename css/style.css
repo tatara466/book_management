@@ -189,7 +189,7 @@ section h2{
 #box {
     
 }
-.result{
+.result {
   width: 400px;
   height: 300px;
   padding: 20px 0;
@@ -201,7 +201,7 @@ section h2{
   margin-bottom: 10px;
 }
 
-.hov:hover {
+.hov:hover + #hed .result{
   background: #E72458;
 }
 
