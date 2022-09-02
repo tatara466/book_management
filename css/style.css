@@ -201,9 +201,9 @@ section h2{
   margin-bottom: 10px;
 }
 
-.book:hover + .result{
+.hover:hover + .result{
   background: #E72458;
-}
+}s
 
 
 /* SEC03 SERVICE MESSAGE STORY
