@@ -182,6 +182,9 @@ section h2{
 #heds {
     text-align: center;
 }
+#box {
+    float: left;
+}
 
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
@@ -254,10 +257,6 @@ section h2{
 		float: left;
 		display: table;
 	background: #f6f6f6;
-	}
-
-	#sec03 .txt, #sec03 .bg{
-		float: right;
 	}
 
 	.vMid{
