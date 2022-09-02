@@ -145,7 +145,6 @@ section h2{
 
 .txt h2{
 	padding: 0 0 20px !important;
-    display: flex;
 }
 .book {
     height: 350px;
