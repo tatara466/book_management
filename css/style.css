@@ -176,6 +176,10 @@ section h2{
     width: 70%;
     height: 100%;   
 }
+#yu {
+    float: right;
+    text-align: center;
+}
 
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
