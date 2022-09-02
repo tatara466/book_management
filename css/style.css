@@ -137,7 +137,6 @@ section h2{
 	clear: both;
 	width: 100%;
 	background: #f6f6f6;
-    display:flex
 }
 
 .bg{
@@ -258,6 +257,7 @@ section h2{
 	.vMid{
 		display: table-cell;
 		padding: 0 100px;
-		vertical-align: middle;
+		vertical-align: top;
+        display: flex;
 	}
 	
