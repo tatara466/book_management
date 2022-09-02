@@ -201,7 +201,7 @@ section h2{
   margin-bottom: 10px;
 }
 
-.hover:hover + .result{
+.hov:hover + .result{
   background: #E72458;
 }s
 
