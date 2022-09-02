@@ -176,7 +176,7 @@ section h2{
     width: 70%;
     height: 100%;   
 }
-#hed {
+#hed, #recos{
     float: right;
     padding: 0px 215px 0px 0px;
 }
@@ -189,6 +189,22 @@ section h2{
 #box {
     
 }
+.button, .result{
+  width: 200px;
+  height: 100px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  background: #66b6d5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover + .result{
+  background: #E72458;
+}
+
 
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
