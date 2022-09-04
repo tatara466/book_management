@@ -201,7 +201,7 @@ section h2{
   margin-bottom: 10px;
 }
 
-.books:hover + .ref .result{
+.books:hover ~.result{
   background: #E72458;
 }
 
