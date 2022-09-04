@@ -124,7 +124,7 @@ section h2{
 /* SEC01 VISION
 ------------------------------------------------------------*/
 
-.vision{
+.PROCESS{
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 80px;
@@ -137,14 +137,6 @@ section h2{
 	clear: both;
 	width: 100%;
 	background: #f6f6f6;
-}
-
-.bg{
-	line-height: 0;
-}
-
-.txt h2{
-	padding: 0 0 20px !important;
 }
 .book {
     height: 350px;
@@ -269,19 +261,3 @@ section h2{
 	#mainnav.changeNav li{
 		padding: 20px 10px;
 	}
-
-	/* SEC02 MESSAGE
-	-----------------*/
-	.txt, .bg{
-		width: 50%;
-		float: left;
-		display: table;
-	background: #f6f6f6;
-	}
-
-	.vMid{
-		display: table-cell;
-		padding: 0 100px;
-		vertical-align: top;
-	}
-	
