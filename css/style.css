@@ -194,6 +194,9 @@ section h2{
 .Product_image {
     border: 4px solid #000;
 }
+.msg {
+    text-align: center;
+}
 
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
