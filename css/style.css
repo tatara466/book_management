@@ -188,15 +188,9 @@ section h2{
   box-sizing: border-box;
   text-align: center;
   color: #fff;
-  background: #66b6d5;
   border-radius: 10px;
   margin-bottom: 10px;
 }
-
-.books:hover ~.result{
-  background: #E72458;
-}
-
 
 /* SEC03 SERVICE MESSAGE STORY
 ------------------------------------------------------------*/
