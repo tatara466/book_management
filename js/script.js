@@ -305,4 +305,15 @@ $(function() {
     $(".book102").hover(function() {
 		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
 	});
+    
+    $(document).ready(function(){
+    $('a[href^=#]').click(function(){
+        var speed = 800;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+    });
+});
 });
