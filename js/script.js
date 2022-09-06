@@ -311,6 +311,18 @@ $(function() {
     $(".book104").hover(function() {
 		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
 	});
+    $(".book105").hover(function() {
+		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
+	});
+    $(".book106").hover(function() {
+		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
+	});
+    $(".book107").hover(function() {
+		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
+	});
+    $(".book108").hover(function() {
+		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
+	});
     
     $(document).ready(function(){
     $('a[href^=#]').click(function(){
