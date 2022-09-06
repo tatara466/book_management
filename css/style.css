@@ -153,13 +153,13 @@ section h2{
 }
 .books1 {
     position: absolute;
-    top: 1200px;
+    top: 1170px;
     left: 10px;
     display: flex;
 }
 .books2 {
     position: absolute;
-    top: 1580px;
+    top: 1500px;
     left: 10px;
     display: flex;
 }
