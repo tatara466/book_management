@@ -305,6 +305,12 @@ $(function() {
     $(".book102").hover(function() {
 		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
 	});
+    $(".book103").hover(function() {
+		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
+	});
+    $(".book104").hover(function() {
+		$(".Product_image").attr("src","https://images-fe.ssl-images-amazon.com/images/P/4862762883.09.LZZZZZZZ");
+	});
     
     $(document).ready(function(){
     $('a[href^=#]').click(function(){
