@@ -139,7 +139,7 @@ section h2{
 	background: #f6f6f6;
 }
 .book {
-    height: 350px;
+    max-height: 31vh;
 }
 .book:hover {
     box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
@@ -165,8 +165,7 @@ section h2{
 }
 .bookshelf {
     position: relative;
-    width: 70%;
-    height: 100%;   
+    width: 60vw;  
 }
 #hed{
     float: right;
