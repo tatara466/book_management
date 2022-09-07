@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ul{list-style:none;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;}
+q:before,q:after{content:'';}
+object,embed{vertical-align:top;}
+legend{display:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img,abbr,acronym,fieldset{border:0;}
+
+body{
+	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+	font-weight: 300;
+	-webkit-text-size-adjust:100%;
+	overflow-x: hidden;
+	color: #000;
+	background: #fff;
+}
+
+a{
+	color: #0066ff;
+	text-decoration: none;
+}
+
+a:hover, .active{
+  text-decoration: underline;
+}
+
+a:active, a:focus,input:active, input:focus{outline:0;}
+
+
+/* ヘッダー
+------------------------------------------------------------*/
+#header{
+	position: relative;
+    overflow:hidden;
+    width:100%;
+    height:568px;
+}
+
+#header img{
+    position:absolute;
+    left:50%;
+    width:1280px;
+    height:568px;
+    margin-left:-640px;
+}
+
+#slogan{
+	position: absolute;
+  top: 50%;
+	width: 100%;
+	-webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+	color: #000;
+	line-height: 1.2;
+	text-align: center;
+}
+
+#slogan h1{
+	font-size: 60px;
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 20px;
+	font-weight:bold;
+    -webkit-text-stroke: 0.5px #FFF;
+    text-stroke: 0.5px #FFF;
+}
+
+#slogan h2{
+	font-size: 40px;
+	font-weight:bold;
+}
+
+
+/* フッター
+------------------------------------------------------------*/
+#footer{
+	clear: both;
+	padding: 50px 10px 50px 0;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+/* 共通
+------------------------------------------------------------*/
+h1, h2{
+	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+/*
+img{
+	width: 100%;
+	height: auto;
+}
+*/
+section{clear:both;}
+
+section h2{
+	font-size: 22px;
+	font-weight:normal;
+	text-align: center;
+}
+
+.inner{
+	width: 94%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+.col2 li{
+	display: inline-block;
+	width: 100%;
+  	margin: 20px 0 20px 0;
+}
+
+
+/* SEC01 VISION
+------------------------------------------------------------*/
+
+.PROCESS{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+
+/* SEC02 MESSAGE
+------------------------------------------------------------*/
+.wrap{
+	clear: both;
+	width: 100%;
+	background: #f6f6f6;
+}
+.book {
+    max-height: 31vh;
+}
+.book:hover {
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+	transform: translateY(-9px);
+}
+.books {
+    position: absolute;
+    top: 840px;
+    left: 10px;
+    display: flex;
+}
+.books1 {
+    position: absolute;
+    top: 1170px;
+    left: 10px;
+    display: flex;
+}
+.books2 {
+    position: absolute;
+    top: 1500px;
+    left: 10px;
+    display: flex;
+}
+.bookshelf {
+    position: relative;
+    width: 60vw;  
+}
+#hed{
+    float: right;
+    padding: 0px 70px 0px 0px;
+}
+#hed h2 {
+    padding: 10px;
+}
+#heds {
+    text-align: center;
+}
+#box {
+    
+}
+.result {
+  width: 400px;
+  height: 300px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Product_image {
+    border: 4px solid #000;
+}
+.msg {
+    text-align: center;
+}
+
+/* SEC03 SERVICE MESSAGE STORY
+------------------------------------------------------------*/
+
+/* RESPONSIVE 設定
+------------------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+	.inner{
+		width: 1024px;
+		padding-bottom: 120px;
+	}
+	section h2{
+		padding: 70px 0 20px;
+	}
+	.txt h2{
+		padding: 0 0 20px !important;
+	}
+}
+
+@media only screen and (min-width: 800px){
+	body{
+		font-size:14px;
+	}
+	
+  a#menu{
+		display:none;
+	}	
+
+	.panel{
+		display:block !important;
+	}
+
+	#mainnav{
+		position:fixed;
+		top: 0;
+		width:100%;
+		z-index:500;
+	}
+
+	#mainnav ul{
+		text-align: right;
+		padding-right: 30px;
+	}
+
+	#mainnav li{
+		display: inline-block;
+		padding: 45px 10px 20px;
+		font-size: 14px;
+		font-weight: 300;
+	}
+	
+  #mainnav a{
+		color: #000;
+	}
+	
+	#mainnav.changeNav{
+		background: rgba(255,255,255,.9);
+		border-bottom: 1px solid #d1d1d1;
+	}
+	
+	#mainnav.changeNav li{
+		padding: 20px 10px;
+	}

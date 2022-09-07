@@ -13,7 +13,24 @@ object,embed{vertical-align:top;}
 legend{display:none;}
 h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
-
+input[type="submit"],
+input[type="button"] {
+  border-radius: 0;
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  appearance: button;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+input[type="submit"]::-webkit-search-decoration,
+input[type="button"]::-webkit-search-decoration {
+  display: none;
+}
+input[type="submit"]::focus,
+input[type="button"]::focus {
+  outline-offset: -2px;
+}
 body{
 	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
 	font-weight: 300;
@@ -39,22 +56,27 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 #header{
 	position: relative;
-    overflow:hidden;
-    width:100%;
-    height:568px;
+	overflow:hidden;
+	width:100%;
+	height:60vw;
+	max-height:568px;
 }
 
 #header img{
     position:absolute;
+		top: 20%;
     left:50%;
-    width:1280px;
-    height:568px;
-    margin-left:-640px;
+		-webkit-transform: translatex(-50%);
+		transform: translateX(-50%);
+		width: 90%;
+		height: 40vw;
+    max-width:1280px;
+    max-height:568px;
 }
 
 #slogan{
 	position: absolute;
-  top: 50%;
+  top: 55%;
 	width: 100%;
 	-webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -64,20 +86,77 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #slogan h1{
-	font-size: 60px;
+	font-size: 6vw;
 	font-family: 'Pacifico', cursive;
-	margin-bottom: 20px;
+	margin-bottom: 2vw;
 	font-weight:bold;
     -webkit-text-stroke: 0.5px #FFF;
     text-stroke: 0.5px #FFF;
 }
 
 #slogan h2{
-	font-size: 40px;
+	font-size: 5vw;
 	font-weight:bold;
 }
+.panel{
+	display:block;
+	padding-bottom: 5px;
+}
+.panel .input{
+	width: 70%;
+	font-size: 3vw;
+}
+.panel .serch{
+	margin-left: 5px;
+	width: 20%;
+	font-size: 2.5vw;
+}
+#mainnav{
+	position:fixed;
+	top: 0;
+	width:100%;
+	z-index:500;
+	background: rgba(255,255,255,0.8);
+}
 
+#mainnav ul{
+	text-align: right;
+	padding-right: 0;
+	padding-right: 1rem;
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  -webkit-align-items:  flex-start;
+  align-items: flex-start;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-align-self: center;
+  align-self: center;
+  flex-wrap: wrap;
+}
 
+#mainnav li{
+	display: inline-block;
+	padding: 0;
+	font-size: 3vw;
+	font-weight: 300;
+	width: 40%;
+}
+
+#mainnav a{
+	color: #000;
+}
+
+#mainnav.changeNav{
+	background: rgba(255,255,255,.9);
+	border-bottom: 1px solid #d1d1d1;
+}
+
+#mainnav.changeNav li{
+	padding: 20px 10px;
+}
 /* フッター
 ------------------------------------------------------------*/
 #footer{
@@ -103,7 +182,7 @@ img{
 section{clear:both;}
 
 section h2{
-	font-size: 22px;
+	font-size: 3.84vw;
 	font-weight:normal;
 	text-align: center;
 }
@@ -137,61 +216,104 @@ section h2{
 	clear: both;
 	width: 100%;
 	background: #f6f6f6;
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items:  flex-start;
+  align-items: flex-start;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-align-self: center;
+  align-self: center;
+  flex-wrap: wrap;
 }
 .book {
-    max-height: 31vh;
+	height: 24.6vw;
+}
+.book li img {
+	width: 100%;
 }
 .book:hover {
     box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
 	transform: translateY(-9px);
 }
+/*
 .books {
     position: absolute;
-    top: 840px;
+    top: 830px;
     left: 10px;
     display: flex;
 }
 .books1 {
     position: absolute;
-    top: 1170px;
+    top: 1200px;
     left: 10px;
     display: flex;
 }
+*/
+.books,
+.books1,
 .books2 {
-    position: absolute;
-    top: 1500px;
-    left: 10px;
-    display: flex;
+	position: relative;
+	width: 98%;
+	margin: auto auto auto 1%;
+	padding-top: 3%;
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: start;
+  justify-content: start;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-align-self: center;
+  align-self: center;
+  flex-wrap: nowrap;
 }
 .bookshelf {
     position: relative;
-    width: 60vw;  
+    width: 100%;
+    height: 100%;   
 }
 #hed{
-    float: right;
-    padding: 0px 70px 0px 0px;
+    order: 1;
+    padding: 0px;
+		width: 80%;
+		margin: 0 auto;
 }
 #hed h2 {
-    padding: 10px;
+    padding: 2vw 0 1vw;
 }
 #heds {
     text-align: center;
+		font-size: 3.33vw
 }
 #box {
-    
+	background-image: url(../images/bookshelf.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	order: 2;
+	width: 100%;
+	padding-bottom: 2%;
 }
 .result {
-  width: 400px;
-  height: 300px;
-  padding: 20px 0;
+  width: 50%;
+  height: auto;
+	margin: auto;
+  padding: 2vw 0;
   box-sizing: border-box;
   text-align: center;
   color: #fff;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 1vw;
 }
 .Product_image {
-    border: 4px solid #000;
+	border: 4px solid #000;
+	width: auto;
+	height: calc(50vw - 8px);
 }
 .msg {
     text-align: center;
@@ -203,32 +325,43 @@ section h2{
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
 
-@media only screen and (min-width: 1200px){
-	.inner{
-		width: 1024px;
-		padding-bottom: 120px;
-	}
-	section h2{
-		padding: 70px 0 20px;
-	}
-	.txt h2{
-		padding: 0 0 20px !important;
-	}
-}
+
 
 @media only screen and (min-width: 800px){
 	body{
 		font-size:14px;
 	}
-	
   a#menu{
 		display:none;
-	}	
-
-	.panel{
-		display:block !important;
 	}
-
+	#header{
+		height:45vw;
+	}
+	#header img{
+		top: 5%;
+    left:50%;
+	}
+	.panel{
+		display:block;
+	}
+	#slogan {
+    top: 50%;
+	}
+	#slogan h1{
+		font-size: 5vw;
+	}
+	#slogan h2{
+		font-size: 3.33vw;
+	}
+	section h2{
+		font-size: 2.84vw;
+	}
+	.panel .input{
+		font-size: 14px;
+	}
+	.panel .serch{
+		font-size: 14px;
+	}
 	#mainnav{
 		position:fixed;
 		top: 0;
@@ -243,9 +376,10 @@ section h2{
 
 	#mainnav li{
 		display: inline-block;
-		padding: 45px 10px 20px;
+		padding: 22px 10px 15px;
 		font-size: 14px;
 		font-weight: 300;
+		width: auto;
 	}
 	
   #mainnav a{
@@ -260,3 +394,83 @@ section h2{
 	#mainnav.changeNav li{
 		padding: 20px 10px;
 	}
+	#hed{
+		order: 2;
+		width: calc(30% - 70px);
+		padding: 0px 70px 0px 0px;
+		margin: 0 0 0 auto;
+	}
+	#hed h2 {
+    padding: 10px;
+	}
+	#heds {
+    text-align: center;
+		font-size: 2.33vw
+	}
+	#box {
+		order: 1;
+		width: 60%;
+		padding-bottom: 15px;
+	}
+	.result {
+		width: 100%;
+	}
+	.book {
+    height: 14.6vw;
+		max-height: 295px;
+	}
+	.books,
+	.books1,
+	.books2 {
+		width: 94%;
+		margin: auto 5% auto 1%;
+	}
+	.result {
+		width: 100%;
+		height: auto;
+		margin: auto;
+		padding: 20px 0;
+		box-sizing: border-box;
+		text-align: center;
+		color: #fff;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+	.Product_image {
+		width: 75%;
+    height: auto;
+}
+}
+
+@media only screen and (min-width: 1200px){
+	.inner{
+		width: 1024px;
+		padding-bottom: 120px;
+	}
+	section h2{
+		padding: 70px 0 20px;
+	}
+	.txt h2{
+		padding: 0 0 20px !important;
+	}
+	#mainnav li{
+		padding: 45px 10px 20px;
+	}
+	#slogan {
+    top: 55%;
+	}
+	#slogan h1{
+		font-size: 60px;
+		margin-bottom: 20px;
+	}
+	#slogan h2{
+		font-size: 40px;
+	}
+	section h2{
+		font-size: 22px;
+	}
+	
+	#heds {
+		font-size: 16px;
+	}
+}
