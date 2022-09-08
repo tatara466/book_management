@@ -215,6 +215,8 @@ section h2{
 .wrap{
 	clear: both;
 	width: 100%;
+	max-width: 1980px;
+  margin: auto;
 	background: #f6f6f6;
 	display: -webkit-box;
   display: -ms-flexbox;
@@ -230,7 +232,8 @@ section h2{
   flex-wrap: wrap;
 }
 .book {
-	height: 24.6vw;
+	height: auto;
+  width: 100%;
 }
 .book li img {
 	width: 100%;
@@ -258,7 +261,7 @@ section h2{
 .books2 {
 	position: relative;
 	width: 98%;
-	margin: auto auto auto 1%;
+	margin: auto 1% auto 1%;
 	padding-top: 3%;
 	display: -webkit-box;
   display: -ms-flexbox;
@@ -410,20 +413,20 @@ section h2{
 	#box {
 		order: 1;
 		width: 60%;
-		padding-bottom: 15px;
+		padding-bottom: 9px;
 	}
 	.result {
 		width: 100%;
 	}
 	.book {
-    height: 14.6vw;
-		max-height: 295px;
+    height: 15.35vw;
+		width: auto;
 	}
 	.books,
 	.books1,
 	.books2 {
-		width: 94%;
-		margin: auto 5% auto 1%;
+		width: 98%;
+    margin: auto 1% auto 1%;
 	}
 	.result {
 		width: 100%;
@@ -472,5 +475,15 @@ section h2{
 	
 	#heds {
 		font-size: 16px;
+	}
+	#box {
+		order: 1;
+		width: 60%;
+		padding-bottom: 15px;
+	}
+	.book {
+		width: auto;
+    height: 15.5vw;
+		max-height: 310px;
 	}
 }
