@@ -58,22 +58,22 @@
           </div>
           <div id="box">
             <py-script>
-              # ブロックの数とブロックあたりの本の数を設定する
-              num_blocks = 2
-              books_per_block = 34
-      
-              # 各ブロックをループ処理する
-              for i in range(num_blocks):
-                # 各ブロックの開始ulタグを生成する
-                print('<ul class="books{}">'.format(i+1))
-      
-                # 各ブロック内の本をループ処理する
-                for j in range(1, books_per_block+1):
-                  # 各本のliタグを生成する
-                  print('\t<li><img class="book book{}" src="images/book.jpg" alt=""></li>'.format(j))
-      
-                # 各ブロックの終了ulタグを生成する
-                print('</ul>')
+                num_blocks = 3
+                books_per_block = 34
+                
+                # 各ブロックをループ処理する
+                for i in range(num_blocks):
+                    # 各ブロックの開始ulタグを生成する
+                    print('<ul class="books{}">'.format(i+1))
+                
+                    # 各ブロック内の本をループ処理する
+                    for j in range(1, books_per_block+1):
+                        # 各本のliタグを生成する
+                        num = (i*books_per_block) + j
+                        print('\t<li><img class="book book{}" src="images/book.jpg" alt=""></li>'.format(num))
+                
+                    # 各ブロックの終了ulタグを生成する
+                    print('</ul>')
             </py-script>
           </div>
         </div>
