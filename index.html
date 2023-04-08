@@ -8,8 +8,13 @@
 <link rel="icon" href="images/icon.png">
 <link rel="stylesheet" media="all" href="css/style.css?v=1.1">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<!--
 <script src="js/script.js"></script>
 <script src="js/script2.js"></script>
+-->
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+	
 </head>
 
 <body>
@@ -57,117 +62,24 @@
 				</div>
 		</div>
 		<div id="box">
-				<!--
-					<img class="bookshelf" src="images/bookshelf.jpg" alt="">
-				-->
-					<ul class="books">
-						<li><img class="book book1" src="images/book.jpg" alt=""></li>
-						<li><img class="book book2" src="images/book.jpg" alt=""></li>
-						<li><img class="book book3" src="images/book.jpg" alt=""></li>
-						<li><img class="book book4" src="images/book.jpg" alt=""></li>
-						<li><img class="book book5" src="images/book.jpg" alt=""></li>
-						<li><img class="book book6" src="images/book.jpg" alt=""></li>
-						<li><img class="book book7" src="images/book.jpg" alt=""></li>
-						<li><img class="book book8" src="images/book.jpg" alt=""></li>
-						<li><img class="book book9" src="images/book.jpg" alt=""></li>
-						<li><img class="book book10" src="images/book.jpg" alt=""></li>
-						<li><img class="book book11" src="images/book.jpg" alt=""></li>
-						<li><img class="book book12" src="images/book.jpg" alt=""></li>
-						<li><img class="book book13" src="images/book.jpg" alt=""></li>
-						<li><img class="book book14" src="images/book.jpg" alt=""></li>
-						<li><img class="book book15" src="images/book.jpg" alt=""></li>
-						<li><img class="book book16" src="images/book.jpg" alt=""></li>
-						<li><img class="book book17" src="images/book.jpg" alt=""></li>
-						<li><img class="book book18" src="images/book.jpg" alt=""></li>
-						<li><img class="book book19" src="images/book.jpg" alt=""></li>
-						<li><img class="book book20" src="images/book.jpg" alt=""></li>
-						<li><img class="book book21" src="images/book.jpg" alt=""></li>
-						<li><img class="book book22" src="images/book.jpg" alt=""></li>
-						<li><img class="book book23" src="images/book.jpg" alt=""></li>
-						<li><img class="book book24" src="images/book.jpg" alt=""></li>
-						<li><img class="book book25" src="images/book.jpg" alt=""></li>
-						<li><img class="book book26" src="images/book.jpg" alt=""></li>
-						<li><img class="book book27" src="images/book.jpg" alt=""></li>
-						<li><img class="book book28" src="images/book.jpg" alt=""></li>
-						<li><img class="book book29" src="images/book.jpg" alt=""></li>
-						<li><img class="book book30" src="images/book.jpg" alt=""></li>
-						<li><img class="book book31" src="images/book.jpg" alt=""></li>
-						<li><img class="book book32" src="images/book.jpg" alt=""></li>
-						<li><img class="book book33" src="images/book.jpg" alt=""></li>
-						<li><img class="book book34" src="images/book.jpg" alt=""></li>
-				</ul>
-				<ul class="books1">
-						<li><img class="book book35" src="images/book.jpg" alt=""></li>
-						<li><img class="book book36" src="images/book.jpg" alt=""></li>
-						<li><img class="book book37" src="images/book.jpg" alt=""></li>
-						<li><img class="book book38" src="images/book.jpg" alt=""></li>
-						<li><img class="book book39" src="images/book.jpg" alt=""></li>
-						<li><img class="book book40" src="images/book.jpg" alt=""></li>
-						<li><img class="book book41" src="images/book.jpg" alt=""></li>
-						<li><img class="book book42" src="images/book.jpg" alt=""></li>
-						<li><img class="book book43" src="images/book.jpg" alt=""></li>
-						<li><img class="book book44" src="images/book.jpg" alt=""></li>
-						<li><img class="book book45" src="images/book.jpg" alt=""></li>
-						<li><img class="book book46" src="images/book.jpg" alt=""></li>
-						<li><img class="book book47" src="images/book.jpg" alt=""></li>
-						<li><img class="book book48" src="images/book.jpg" alt=""></li>
-						<li><img class="book book49" src="images/book.jpg" alt=""></li>
-						<li><img class="book book50" src="images/book.jpg" alt=""></li>
-						<li><img class="book book51" src="images/book.jpg" alt=""></li>
-						<li><img class="book book52" src="images/book.jpg" alt=""></li>
-						<li><img class="book book53" src="images/book.jpg" alt=""></li>
-						<li><img class="book book54" src="images/book.jpg" alt=""></li>
-						<li><img class="book book55" src="images/book.jpg" alt=""></li>
-						<li><img class="book book56" src="images/book.jpg" alt=""></li>
-						<li><img class="book book57" src="images/book.jpg" alt=""></li>
-						<li><img class="book book58" src="images/book.jpg" alt=""></li>
-						<li><img class="book book59" src="images/book.jpg" alt=""></li>
-						<li><img class="book book60" src="images/book.jpg" alt=""></li>
-						<li><img class="book book61" src="images/book.jpg" alt=""></li>
-						<li><img class="book book62" src="images/book.jpg" alt=""></li>
-						<li><img class="book book63" src="images/book.jpg" alt=""></li>
-						<li><img class="book book64" src="images/book.jpg" alt=""></li>
-						<li><img class="book book65" src="images/book.jpg" alt=""></li>
-						<li><img class="book book66" src="images/book.jpg" alt=""></li>
-						<li><img class="book book67" src="images/book.jpg" alt=""></li>
-						<li><img class="book book68" src="images/book.jpg" alt=""></li>
-				</ul>
-				<ul class="books2">
-						<li><img class="book book69" src="images/book.jpg" alt=""></li>
-						<li><img class="book book70" src="images/book.jpg" alt=""></li>
-						<li><img class="book book71" src="images/book.jpg" alt=""></li>
-						<li><img class="book book72" src="images/book.jpg" alt=""></li>
-						<li><img class="book book73" src="images/book.jpg" alt=""></li>
-						<li><img class="book book74" src="images/book.jpg" alt=""></li>
-						<li><img class="book book75" src="images/book.jpg" alt=""></li>
-						<li><img class="book book76" src="images/book.jpg" alt=""></li>
-						<li><img class="book book77" src="images/book.jpg" alt=""></li>
-						<li><img class="book book78" src="images/book.jpg" alt=""></li>
-						<li><img class="book book79" src="images/book.jpg" alt=""></li>
-						<li><img class="book book80" src="images/book.jpg" alt=""></li>
-						<li><img class="book book81" src="images/book.jpg" alt=""></li>
-						<li><img class="book book82" src="images/book.jpg" alt=""></li>
-						<li><img class="book book83" src="images/book.jpg" alt=""></li>
-						<li><img class="book book84" src="images/book.jpg" alt=""></li>
-						<li><img class="book book85" src="images/book.jpg" alt=""></li>
-						<li><img class="book book86" src="images/book.jpg" alt=""></li>
-						<li><img class="book book87" src="images/book.jpg" alt=""></li>
-						<li><img class="book book88" src="images/book.jpg" alt=""></li>
-						<li><img class="book book89" src="images/book.jpg" alt=""></li>
-						<li><img class="book book90" src="images/book.jpg" alt=""></li>
-						<li><img class="book book91" src="images/book.jpg" alt=""></li>
-						<li><img class="book book92" src="images/book.jpg" alt=""></li>
-						<li><img class="book book93" src="images/book.jpg" alt=""></li>
-						<li><img class="book book94" src="images/book.jpg" alt=""></li>
-						<li><img class="book book95" src="images/book.jpg" alt=""></li>
-						<li><img class="book book96" src="images/book.jpg" alt=""></li>
-						<li><img class="book book97" src="images/book.jpg" alt=""></li>
-						<li><img class="book book98" src="images/book.jpg" alt=""></li>
-						<li><img class="book book99" src="images/book.jpg" alt=""></li>
-						<li><img class="book book100" src="images/book.jpg" alt=""></li>
-						<li><img class="book book101" src="images/book.jpg" alt=""></li>
-						<li><img class="book book102" src="images/book.jpg" alt=""></li>
-				</ul>
+			<py-script>
+			# ブロックの数とブロックあたりの本の数を設定する
+			num_blocks = 2
+			books_per_block = 34
+
+			# 各ブロックをループ処理する
+			for i in range(num_blocks):
+			    # 各ブロックの開始ulタグを生成する
+			    print('<ul class="books{}">'.format(i+1))
+
+			    # 各ブロック内の本をループ処理する
+			    for j in range(1, books_per_block+1):
+				# 各本のliタグを生成する
+				print('\t<li><img class="book book{}" src="images/book.jpg" alt=""></li>'.format(j))
+
+			    # 各ブロックの終了ulタグを生成する
+			    print('</ul>')
+			</py-script>
 		</div>
 	</div>
 </section>
