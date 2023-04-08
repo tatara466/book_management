@@ -256,9 +256,9 @@ section h2{
     display: flex;
 }
 */
+.books,
 .books1,
-.books2,
-.books3 {
+.books2 {
 	position: relative;
 	width: 98%;
 	margin: auto 1% auto 1%;
@@ -422,9 +422,9 @@ section h2{
     height: 15.35vw;
 		width: auto;
 	}
+	.books,
 	.books1,
-	.books2,
-	.books3 {
+	.books2 {
 		width: 98%;
     margin: auto 1% auto 1%;
 	}
